@@ -1,13 +1,3 @@
-// tested works with wt32-eth01 LAN 8720
-// dhcp webserver wired rj45
-// webpage shows button when pressed random data is displayed
-// programming WT32-ETH01 is not going well with my FTDI usb thingy 
-// lots off errors and sometimes it programs
-// https://github.com/ldijkman/WT32-ETH01-LAN-8720-RJ45-/blob/main/wt32prog.jpg
-// https://github.com/ldijkman/WT32-ETH01-LAN-8720-RJ45-
-
-// file from  https://github.com/espressif/arduino-esp32/issues/3821
-
 /*
     Copyright statement: This article is the original article of the CSDN blogger "Naisu_kun",
     which follows the CC 4.0 BY-SA copyright agreement.
@@ -16,8 +6,7 @@
     Original link：https://blog.csdn.net/Naisu_kun/article/details/88572129
     - Explanation of the code and other parameters: see the link above.
     - Note: Original language: Chinese (You can use the Google translator to read English, or another language)
-
-   Copyright 2021 Dirk Luberth Dijkman Bangert 30 1619GJ Andijk The Netherlands
+    Copyright 2021 Dirk Luberth Dijkman Bangert 30 1619GJ Andijk The Netherlands
 
   GNU General Public License,
   which basically means that you may freely copy, change, and distribute it,
@@ -154,6 +143,3 @@ void setup() {
 void loop() {
   server.handleClient(); // Handling requests from clients
 }
-
-// A Penny for Sharing My Thoughts?
-// www.paypal.me/LDijkman

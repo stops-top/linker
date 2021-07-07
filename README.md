@@ -7,9 +7,8 @@
 [linker](https://github.com/stopstopstop/linker)用于实现以太网开发
 
 
-### 上行单元
 
-| 主控芯片 | ETH | WIFI | BLE | ZigBee | NFC |
+| 构建方案 | ETH | WIFI | BLE | ZigBee | NFC |
 | --------- | ----- | ----- | ----- | ----- | ---- |
-|   ESP32   |   √   |   √  |  X  |  X  |  √   |
-|   CH579   |   √   |   √  |  X  |  X  |  √   |
+|  ESP32+PHY  |   √   |   √  |  √  |  X  |  X   |
+|  CH579+WIFI |   √   |   √  |  √  |  √  |  X   |

@@ -283,6 +283,3 @@ float TempCelsius;
 
   server.handleClient(); // Handling requests from clients
 }
-
-// A Penny for Sharing My Thoughts?
-// www.paypal.me/LDijkman
